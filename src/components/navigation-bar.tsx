@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import Logo from './logo'
 import HelpCenter from './help-center'
 import { Button } from './ui/button'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function NavigationBar() {
 
@@ -14,7 +15,7 @@ function NavigationBar() {
 
   return (
     <>
-      <div className={`w-full text-white py-5 px-8 sm:px-20 flex flex-row justify-between items-center ${isOpen ? 'bg-[#2c2b2b]' : 'bg-black'}`}>
+      <div className={`w-full text-white py-5 px-6 sm:px-20 flex flex-row justify-between items-center ${isOpen ? 'bg-[#1f1e1e]' : 'bg-black'}`}>
           <div className='flex flex-row gap-5 items-center'>
               <Logo />
               <div className='text-xl'>|</div>
@@ -26,12 +27,18 @@ function NavigationBar() {
           </div>
 
           <button onClick={handleToggle} className='block md:hidden'>
-            o
+            {isOpen ? 
+            <div className='text-2xl text-white'>X</div> 
+            : 
+            <RxHamburgerMenu 
+              className='text-2xl text-white'
+            />
+            }         
           </button>
       </div>
 
       {isOpen && (
-        <div className={`w-full bg-[#2c2b2b] text-white py-5 px-20 z-100 border-t-[1px] absolute md:hidden`}>
+        <div className={`w-full bg-[#1f1e1e] text-white py-5 px-20 z-100 border-t-[1px] absolute md:hidden`}>
               <div className='flex flex-col gap-5 items-center'>
                   <button className='text-lg'>Submit Request</button>
                   <button className='text-lg'>Sign In</button>
