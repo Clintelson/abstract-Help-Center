@@ -9,7 +9,7 @@ function Header() {
         How can we help?
       </div>
 
-        <div className='relative mt-8 w-full sm:w-[50%] group bg-white'>
+        <div className='relative mt-8 w-full sm:w-[50%] group bg-white rounded-sm'>
           <input
               type='text'
               placeholder='Search'
