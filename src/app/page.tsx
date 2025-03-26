@@ -13,7 +13,7 @@ export default function Home() {
             <p>
               Abstract lets you manage, version, and document your designs in one place.
             </p>
-            <Link href="/abstract" className="text-blue-500 flex flex-row items-center gap-8">
+            <Link href="./" className="text-blue-500 flex flex-row items-center gap-8">
             Learn more
             <FaArrowRightLong className="w-6 h-6" />
             </Link>
@@ -24,7 +24,7 @@ export default function Home() {
             <p>
             Use Abstract organizations, teams, and projects to organize your people and your work.
             </p>
-            <Link href="/abstract" className="text-blue-500 flex flex-row items-center gap-8">
+            <Link href="./" className="text-blue-500 flex flex-row items-center gap-8">
             Learn more
             <FaArrowRightLong className="w-6 h-6" />
             </Link>
@@ -35,7 +35,7 @@ export default function Home() {
             <p>
               Set up and configure SSO, SCIM, and Just-in-Time provisioning.
             </p>
-            <Link href="/abstract" className="text-blue-500 flex flex-row items-center gap-8">
+            <Link href="./" className="text-blue-500 flex flex-row items-center gap-8">
             Learn more
             <FaArrowRightLong className="w-6 h-6" />
             </Link>
@@ -46,7 +46,7 @@ export default function Home() {
             <p>
               Configure your account settings, such as your email, profile details, and password.
             </p>
-            <Link href="/abstract" className="text-blue-500 flex flex-row items-center gap-8">
+            <Link href="./" className="text-blue-500 flex flex-row items-center gap-8">
             Learn more
             <FaArrowRightLong className="w-6 h-6" />
             </Link>
@@ -57,7 +57,7 @@ export default function Home() {
             <p>
               Change subscriptions and payment details.
             </p>
-            <Link href="/abstract" className="text-blue-500 flex flex-row items-center gap-8">
+            <Link href="./" className="text-blue-500 flex flex-row items-center gap-8">
             Learn more
             <FaArrowRightLong className="w-6 h-6" />
             </Link>
@@ -68,7 +68,7 @@ export default function Home() {
             <p>
               Get in touch with a human.
             </p>
-            <Link href="/abstract" className="text-blue-500 flex flex-row items-center gap-8">
+            <Link href="./" className="text-blue-500 flex flex-row items-center gap-8">
             Learn more
             <FaArrowRightLong className="w-6 h-6" />
             </Link>
